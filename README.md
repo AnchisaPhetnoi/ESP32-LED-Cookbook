@@ -197,7 +197,8 @@ Build และทดสอบบนบอร์ด ESP32
 
 4.5  แก้ไขไฟล์ main.cpp
 
-![image](https://github.com/user-attachments/assets/412576c0-d585-4f7d-9e1f-b0d3320c57fe)
+![image](https://github.com/user-attachments/assets/cdcc5c00-63bf-4cf1-9c74-94f58e5e292e)
+
 
 ``` cpp
 #include <stdio.h>
