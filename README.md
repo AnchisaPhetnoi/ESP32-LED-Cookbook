@@ -6,13 +6,13 @@
 มีดังนี้   ต้องการแก้ไขเพื่อ
 
 ### ขั้นตอนการทำ project
-1.สร้าง project ใหม่ ชื่อ LED_ Project 
+#### 1.สร้าง project ใหม่ ชื่อ LED_ Project 
 
 ![image](https://github.com/user-attachments/assets/e8b66e5b-3448-4445-bfa9-73275c22bbf3)
 
 เมื่อเลือกตามภาพเสร็จเรียบร้อยแล้วให้ทำการ กด Choose Tamplate
 
-2.เมื่อมาถึงหน้านี้ให้ กด template-app และกด Create Project 
+#### 2.เมื่อมาถึงหน้านี้ให้ กด template-app และกด Create Project 
 
 ![image](https://github.com/user-attachments/assets/f561eea3-1d3e-4a85-aaf3-0f9c7d34e23c)
 
@@ -21,7 +21,7 @@
 ![image](https://github.com/user-attachments/assets/17644db7-29c9-4aab-bd29-2decfb8a6395)
 
 
-3.สร้าง Component ใหม่ ชื่อ LED
+#### 3.สร้าง Component ใหม่ ชื่อ LED
 
 ![462574705_1089954725689616_227615653684703297_n](https://github.com/user-attachments/assets/d15ec18a-39dd-4655-b56e-273e8790c602)
 
@@ -32,8 +32,8 @@
 ![image](https://github.com/user-attachments/assets/e94edf59-3675-448b-a5a0-92a7e1a6762b)
 
 
-3.1 เปลี่ยนชื่อไฟล์ LED.c เป็น LED.cpp
-3.2 เพิ่มการประกาศคลาสลงใน LED.h โดยให้ใส่ #include "driver/gpio.h" ด้วย เพื่อใช้งาน GPIO
+##### 3.1 เปลี่ยนชื่อไฟล์ LED.c เป็น LED.cpp
+##### 3.2 เพิ่มการประกาศคลาสลงใน LED.h โดยให้ใส่ #include "driver/gpio.h" ด้วย เพื่อใช้งาน GPIO
 
 
 ![image](https://github.com/user-attachments/assets/ba40e3ec-2aa8-4aaf-ab2d-85338d9376b9)
@@ -52,7 +52,7 @@ public:
 };
 ```
 
-3.3 แก้ไขไฟล์ LED.cpp ให้เป็นดังนี้
+##### 3.3 แก้ไขไฟล์ LED.cpp ให้เป็นดังนี้
 
 ![image](https://github.com/user-attachments/assets/12f82a26-ef3d-446f-be09-aefcd3c5b33a)
 
@@ -78,7 +78,7 @@ void LED::OFF()
 }
 ```
 
-3.4 แก้ไขไฟล์ CMakeLists.txt ใน component/LED ให้เป็นดังต่อไปนี้
+##### 3.4 แก้ไขไฟล์ CMakeLists.txt ใน component/LED ให้เป็นดังต่อไปนี้
 
 ![image](https://github.com/user-attachments/assets/82de27f3-66ad-400c-943e-9499f8734252)
 
@@ -90,11 +90,11 @@ idf_component_register(SRCS "LED.cpp"
 ```
 
 
-4. แก้ไขไฟล์ต่าง ๆ ใน Main
+#### 4. แก้ไขไฟล์ต่าง ๆ ใน Main
 
-4.1 เปลี่ยนชื่อไฟล์ main.c เป็น main.cpp 
+##### 4.1 เปลี่ยนชื่อไฟล์ main.c เป็น main.cpp 
 
-4.2 แก้ไขไฟล์ CMakeLists.txt ใน Main เพื่อเปลี่ยนชื่อไฟล์ main.c เป็น main.cpp
+##### 4.2 แก้ไขไฟล์ CMakeLists.txt ใน Main เพื่อเปลี่ยนชื่อไฟล์ main.c เป็น main.cpp
 
 ![image](https://github.com/user-attachments/assets/43a51200-88d2-4faa-b4d3-c8e70f8da566)
 
@@ -105,7 +105,7 @@ idf_component_register(SRCS "main.cpp"
                     REQUIRES LED)
 ```
 
-4.3 แก้ไขไฟล์ main.cpp
+##### 4.3 แก้ไขไฟล์ main.cpp
 
 ![image](https://github.com/user-attachments/assets/058a3ab4-7dde-418c-8563-8b78b96ca32b)
 
@@ -155,7 +155,7 @@ Build และทดสอบบนบอร์ด ESP32
 
 
 
-4.4 แก้ไขไฟล์ main.cpp
+##### 4.4 แก้ไขไฟล์ main.cpp
 
 ![image](https://github.com/user-attachments/assets/9769fcc9-07e0-4170-9167-b25b38fb185a)
 
@@ -197,7 +197,7 @@ Build และทดสอบบนบอร์ด ESP32
 
 
 
-4.5  แก้ไขไฟล์ main.cpp
+##### 4.5  แก้ไขไฟล์ main.cpp
 
 ![image](https://github.com/user-attachments/assets/cdcc5c00-63bf-4cf1-9c74-94f58e5e292e)
 
