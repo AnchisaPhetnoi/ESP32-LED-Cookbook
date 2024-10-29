@@ -91,7 +91,9 @@ idf_component_register(SRCS "LED.cpp"
 
 
 4. แก้ไขไฟล์ต่าง ๆ ใน Main
+
 4.1 เปลี่ยนชื่อไฟล์ main.c เป็น main.cpp 
+
 4.2 แก้ไขไฟล์ CMakeLists.txt ใน Main เพื่อเปลี่ยนชื่อไฟล์ main.c เป็น main.cpp
 
 ![image](https://github.com/user-attachments/assets/43a51200-88d2-4faa-b4d3-c8e70f8da566)
