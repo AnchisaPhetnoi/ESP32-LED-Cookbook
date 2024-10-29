@@ -23,7 +23,8 @@
 
 3.สร้าง Component ใหม่ ชื่อ LED
 
-![image](https://github.com/user-attachments/assets/c3fd2689-7884-4665-a01c-3cb575d26d58)
+![462574705_1089954725689616_227615653684703297_n](https://github.com/user-attachments/assets/d15ec18a-39dd-4655-b56e-273e8790c602)
+
 
 ![image](https://github.com/user-attachments/assets/8fff07ba-c316-4662-bc02-e88692f53938)
 
