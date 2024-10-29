@@ -161,7 +161,7 @@ Build และทดสอบบนบอร์ด ESP32
 
 วิดิโอประกอบ
 
-
+https://youtu.be/xjjgl_8AGQQ?si=OLOIFWXs1reDP_HQ
 
 ##### 4.4 แก้ไขไฟล์ main.cpp
 
@@ -255,7 +255,7 @@ Build และทดสอบบนบอร์ด ESP32
 
 วิดิโอประกอบ
 
-https://youtu.be/xjjgl_8AGQQ?si=OLOIFWXs1reDP_HQ
+
 
 
 
