@@ -18,7 +18,7 @@
 
 เนื้อหาในไฟล์ main.c 
 
-![image](https://github.com/user-attachments/assets/17644db7-29c9-4aab-bd29-2decfb8a6395)
+![image](https://github.com/user-attachments/assets/3a308998-b7a8-4fd9-a8f6-666d54df7480)
 
 
 ### 3.สร้าง Component ใหม่ ชื่อ LED
@@ -36,7 +36,8 @@
 ##### 3.2 เพิ่มการประกาศคลาสลงใน LED.h โดยให้ใส่ #include "driver/gpio.h" ด้วย เพื่อใช้งาน GPIO
 
 
-![image](https://github.com/user-attachments/assets/ba40e3ec-2aa8-4aaf-ab2d-85338d9376b9)
+![image](https://github.com/user-attachments/assets/9707c950-6825-460e-b3e7-12381397ad23)
+
 
 ``` cpp
 LED.h
@@ -54,7 +55,8 @@ public:
 
 ##### 3.3 แก้ไขไฟล์ LED.cpp ให้เป็นดังนี้
 
-![image](https://github.com/user-attachments/assets/12f82a26-ef3d-446f-be09-aefcd3c5b33a)
+![image](https://github.com/user-attachments/assets/dd268ca5-f1f7-4e36-85be-9580240a7d5d)
+
 
 ``` cpp
 LED.cpp
@@ -80,7 +82,8 @@ void LED::OFF()
 
 ##### 3.4 แก้ไขไฟล์ CMakeLists.txt ใน component/LED ให้เป็นดังต่อไปนี้
 
-![image](https://github.com/user-attachments/assets/82de27f3-66ad-400c-943e-9499f8734252)
+![image](https://github.com/user-attachments/assets/f570443b-4c77-46a7-ab72-b0e39d656220)
+
 
 ``` cpp
 CMAkeLists.txt (ใน component/LED)
@@ -96,7 +99,8 @@ idf_component_register(SRCS "LED.cpp"
 
 ##### 4.2 แก้ไขไฟล์ CMakeLists.txt ใน Main เพื่อเปลี่ยนชื่อไฟล์ main.c เป็น main.cpp
 
-![image](https://github.com/user-attachments/assets/43a51200-88d2-4faa-b4d3-c8e70f8da566)
+![image](https://github.com/user-attachments/assets/253b5225-52a7-459a-9f4d-14d5d2de9d16)
+
 
 ``` cpp
 CMAkeLists.txt (ใน Main)
@@ -107,7 +111,8 @@ idf_component_register(SRCS "main.cpp"
 
 ##### 4.3 แก้ไขไฟล์ main.cpp
 
-![image](https://github.com/user-attachments/assets/058a3ab4-7dde-418c-8563-8b78b96ca32b)
+![image](https://github.com/user-attachments/assets/9cae98ed-309c-4c34-b5b9-d47def112d9d)
+
 
 ``` cpp
 #include <stdio.h>
@@ -157,7 +162,8 @@ Build และทดสอบบนบอร์ด ESP32
 
 ##### 4.4 แก้ไขไฟล์ main.cpp
 
-![image](https://github.com/user-attachments/assets/9769fcc9-07e0-4170-9167-b25b38fb185a)
+![Uploading image.png…]()
+
 
 ``` cpp
 #include <stdio.h>
