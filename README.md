@@ -163,7 +163,7 @@ Build และทดสอบบนบอร์ด ESP32
 
 https://youtu.be/xjjgl_8AGQQ?si=OLOIFWXs1reDP_HQ
 
-![image](https://github.com/user-attachments/assets/38f85211-bfe7-4503-9f2f-146c63b95216)
+
 
 
 ##### 4.4 แก้ไขไฟล์ main.cpp
