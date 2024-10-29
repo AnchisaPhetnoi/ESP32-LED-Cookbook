@@ -113,7 +113,8 @@ idf_component_register(SRCS "main.cpp"
 
 ##### 4.3 แก้ไขไฟล์ main.cpp
 
-![image](https://github.com/user-attachments/assets/9cae98ed-309c-4c34-b5b9-d47def112d9d)
+![image](https://github.com/user-attachments/assets/9d187785-9ed5-4bda-a2f8-e6cf87df0622)
+
 
 
 ``` cpp
