@@ -6,13 +6,13 @@
 มีดังนี้   ต้องการแก้ไขเพื่อ
 
 ### ขั้นตอนการทำ project
-#### 1.สร้าง project ใหม่ ชื่อ LED_ Project 
+### 1.สร้าง project ใหม่ ชื่อ LED_ Project 
 
 ![image](https://github.com/user-attachments/assets/e8b66e5b-3448-4445-bfa9-73275c22bbf3)
 
 เมื่อเลือกตามภาพเสร็จเรียบร้อยแล้วให้ทำการ กด Choose Tamplate
 
-#### 2.เมื่อมาถึงหน้านี้ให้ กด template-app และกด Create Project 
+### 2.เมื่อมาถึงหน้านี้ให้ กด template-app และกด Create Project 
 
 ![image](https://github.com/user-attachments/assets/f561eea3-1d3e-4a85-aaf3-0f9c7d34e23c)
 
@@ -21,7 +21,7 @@
 ![image](https://github.com/user-attachments/assets/17644db7-29c9-4aab-bd29-2decfb8a6395)
 
 
-#### 3.สร้าง Component ใหม่ ชื่อ LED
+### 3.สร้าง Component ใหม่ ชื่อ LED
 
 ![462574705_1089954725689616_227615653684703297_n](https://github.com/user-attachments/assets/d15ec18a-39dd-4655-b56e-273e8790c602)
 
@@ -90,7 +90,7 @@ idf_component_register(SRCS "LED.cpp"
 ```
 
 
-#### 4. แก้ไขไฟล์ต่าง ๆ ใน Main
+### 4. แก้ไขไฟล์ต่าง ๆ ใน Main
 
 ##### 4.1 เปลี่ยนชื่อไฟล์ main.c เป็น main.cpp 
 
