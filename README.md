@@ -162,7 +162,8 @@ Build และทดสอบบนบอร์ด ESP32
 
 ##### 4.4 แก้ไขไฟล์ main.cpp
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/febb623d-e580-47fe-88ac-17f16b655cd8)
+
 
 
 ``` cpp
