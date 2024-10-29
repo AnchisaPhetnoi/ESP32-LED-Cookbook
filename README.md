@@ -34,8 +34,8 @@
 ##### 3.1 เปลี่ยนชื่อไฟล์ LED.c เป็น LED.cpp
 ##### 3.2 เพิ่มการประกาศคลาสลงใน LED.h โดยให้ใส่ #include "driver/gpio.h" ด้วย เพื่อใช้งาน GPIO
 
+![image](https://github.com/user-attachments/assets/da7b27a5-da97-470f-b571-0362307a1559)
 
-![image](https://github.com/user-attachments/assets/9707c950-6825-460e-b3e7-12381397ad23)
 
 
 ``` cpp
@@ -54,7 +54,8 @@ public:
 
 ##### 3.3 แก้ไขไฟล์ LED.cpp ให้เป็นดังนี้
 
-![image](https://github.com/user-attachments/assets/dd268ca5-f1f7-4e36-85be-9580240a7d5d)
+![image](https://github.com/user-attachments/assets/6635e4ba-5f40-498a-ab50-c1c9298935c3)
+
 
 
 ``` cpp
@@ -81,7 +82,8 @@ void LED::OFF()
 
 ##### 3.4 แก้ไขไฟล์ CMakeLists.txt ใน component/LED ให้เป็นดังต่อไปนี้
 
-![image](https://github.com/user-attachments/assets/f570443b-4c77-46a7-ab72-b0e39d656220)
+![image](https://github.com/user-attachments/assets/7a8f8f90-bd36-4f7c-96bd-6d5e683d71e0)
+
 
 
 ``` cpp
