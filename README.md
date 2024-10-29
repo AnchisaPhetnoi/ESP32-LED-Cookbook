@@ -261,8 +261,9 @@ Build และทดสอบบนบอร์ด ESP32
 
 
 
-ลิงค์ Project ที่ทำ:https://github.com/AnchisaPhetnoi/ESP32-LED.git
+ลิงค์ Project ที่ทำบน VS code :https://github.com/AnchisaPhetnoi/ESP32-LED.git
 
-![image](https://github.com/user-attachments/assets/5a8a02c3-bfb7-42d0-bf76-9337990de4ea)
+![image](https://github.com/user-attachments/assets/4603dfa9-c96a-4500-9b74-066c406eb63e)
+
 
 
